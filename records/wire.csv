@@ -1,0 +1,5 @@
+seq,transfer,kind,source,original,payee,currency,minor,grant,start,end
+4,w1,pay,s1,-,music1,EUR,600,g2,20,35
+5,w2,pay,s1,-,actor1,EUR,1200,g1,20,60
+9,w3,recover,s1,w1,music1,EUR,280,g2,20,35
+10,w4,recover,s1,w1,music1,EUR,320,g2,20,35

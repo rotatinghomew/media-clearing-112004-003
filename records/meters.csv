@@ -1,0 +1,6 @@
+package,source_tag,meter,master,start,end,audio,region,unit,amount
+box1,v1,k1,m1,0,40,zh,EU,play_second,12000
+box1,v1,k2,m1,40,60,zh,EU,play_second,5000
+box1,v2,k2,m1,40,60,zh,EU,play_second,5000
+box1,v2,k3,m1,60,100,zh,EU,play_second,10200
+box1,v3,k4,m2,0,60,fr,EU,play_second,4600

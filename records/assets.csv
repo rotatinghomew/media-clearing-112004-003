@@ -1,0 +1,8 @@
+platform,package,tag,master,start,end,audio,region,basis_unit,weight
+p1,box1,v1,m1,0,60,zh,EU,min,2
+p1,box1,v2,m1,40,100,zh,EU,min,3
+p1,box1,v3,m2,0,60,fr,EU,min,2
+p1,box2,v4,m1,0,60,zh,EU,play,20
+p1,box2,v5,m2,10,30,fr,EU,second,15
+p2,box3,v6,m1,20,55,zh,AS,play,19
+p2,box3,v7,m2,0,60,fr,EU,play,13
