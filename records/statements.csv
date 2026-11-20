@@ -4,3 +4,5 @@ s2,2026-02-10,p1,box2,EUR,9600,source,-,-
 s3,2026-02-12,p2,box3,USD,29999,source,v6,-
 s4,2026-02-12,p2,box3,USD,8031,source,v7,-
 s5,2026-03-15,p1,box1,EUR,-3001,refund,-,s1
+s6,2026-03-15,p1,box1,EUR,-753,refund,-,s1
+s7,2026-03-16,p2,box3,USD,-40000,refund,-,s3

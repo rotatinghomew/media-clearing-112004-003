@@ -1,0 +1,13 @@
+at,actual_at,batch,line,business_ref,source,currency,minor,action,state,bank_ref
+2026-02-12,2026-02-12,E01,1,w1,s1,EUR,600,pay,posted,-
+2026-02-15,2026-02-13,E01,2,w2,s1,EUR,1200,pay,posted,-
+2026-02-15,2026-02-15,E01,-,-,-,EUR,1800,net,posted,BANK-1
+2026-03-14,2026-03-14,E02,1,w8,s1,EUR,451,pay,accepted,-
+2026-03-14,2026-03-14,E02,2,w9,s2,EUR,231,pay,accepted,-
+2026-03-16,2026-03-16,E02,1,w8,s1,EUR,451,pay,cancelable,-
+2026-03-17,2026-03-15,E02,2,w9,s2,EUR,231,pay,posted,-
+2026-03-17,2026-03-16,E02,-,-,-,EUR,231,net,posted,BANK-2
+2026-03-20,2026-03-19,E03,1,w3,s1,EUR,280,recover,posted,-
+2026-03-23,2026-03-21,E03,2,w4,s1,EUR,320,recover,posted,-
+2026-03-24,2026-03-24,E03,-,-,-,EUR,-600,net,posted,BANK-3
+2026-03-24,2026-03-24,U01,-,-,-,USD,740,net,posted,BANK-4

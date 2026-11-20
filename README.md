@@ -22,6 +22,12 @@ CSV 使用 UTF-8、首行字段名，`-` 表示来源未填；JSON 使用原生�
 - `revisions.csv`：`seq`, `kind`, `grant`, `from`, `through`, `start`, `end`, `region`, `audio`。
 - `wire.csv`：`seq`, `transfer`, `kind`, `source`, `original`, `payee`, `currency`, `minor`, `grant`, `start`, `end`。
 
+## 补充来源说明
+
+- `clearing_terms.json`：币种清算契约。minor 是整数最小单位。归属、授权层和收款人分配时，各自的同一原款分组按分段理论份额以最大余数分厘；同余按时间、授权编号顺序。相同 original 与区间的旧付款未确认时不可另发新支出。
+- `clearing_events.csv`：两期清算回执；accepted 未出账，failed 与 cancelable 分别为无法成功与经确认可撤。net 是整批银行确认值，不分配到明细行。at 单调按来件顺序，actual_at 可早于补报。
+- `clearing_lines.csv`：清算所来件索引。范围沿用母带秒和音轨，用途与当前权利说明不同。退款 scope 另由平台给出。
+
 ## 本地检查
 
 使用 Python 3.11 标准库，无需安装第三方依赖。构建检查和来源契约测试：

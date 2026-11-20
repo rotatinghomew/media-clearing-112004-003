@@ -1,0 +1,60 @@
+{
+  "refund_scopes": [
+    {
+      "id": "s5",
+      "original": "s1",
+      "master": "m1",
+      "start": 25,
+      "end": 47,
+      "audio": "zh",
+      "region": "EU",
+      "currency": "EUR",
+      "minor": 3001
+    },
+    {
+      "id": "s6",
+      "original": "s1",
+      "master": "m2",
+      "start": 30,
+      "end": 55,
+      "audio": "fr",
+      "region": "EU",
+      "currency": "EUR",
+      "minor": 753
+    },
+    {
+      "id": "s7",
+      "original": "s3",
+      "master": "m1",
+      "start": 3,
+      "end": 15,
+      "audio": "ja",
+      "region": "AP",
+      "currency": "USD",
+      "minor": 40000
+    }
+  ],
+  "export_fields": [
+    "batch",
+    "line",
+    "business_ref",
+    "source",
+    "currency",
+    "minor",
+    "payee",
+    "grant",
+    "master",
+    "start",
+    "end",
+    "action"
+  ],
+  "rounding": {
+    "rule": "largest_remainders",
+    "ties": [
+      "start",
+      "grant"
+    ]
+  },
+  "range_outside_grant": "suspense",
+  "refund_notice_date": "2026-03-15"
+}
